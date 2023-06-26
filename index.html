@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+    <style>
+        .container {
+            transition: .5s ease all;
+        }
+
+        .delete-anim {
+            scale: 0.1;
+            opacity: 0;
+            width: 0px !important;
+            margin-right: -25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="modal_bg"></div>
+
+
+    <h1>Todo List</h1>
+    <form>
+        <input class="spm" type="text" name="task" placeholder="Buy model's">
+        <button>Add</button>
+    </form>
+
+    <div class="container"></div>
+    
+<div class="cont_reg">
+    <button class="down">&#8592</button>
+    <span>1</span>
+    <button class="up">&#8594</button>
+</div>
+
+
+    <div class="modal">
+        <h3>change</h3>
+        <input class="accepts" type="text" name="task">
+        <div class="modal_btn_box">
+            <button class="back">back</button>
+            <button class="accept">sale</button>
+        </div>
+    </div>
+
+    <script src="./js/java.js"></script>
+</body>
+
+</html>
